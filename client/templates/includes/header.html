@@ -1,0 +1,14 @@
+<template name="header">
+	<header class="navbar navbar-default" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="{{pathFor 'postsList'}}"><strong>AUF design {{pageTitle}}</strong></a></li>
+					<li><a href="{{pathFor 'postsList'}}">Posts</a></li>
+					<li><a href="{{pathFor 'expensesList'}}">Expenses</a></li>
+					{{>loginButtons align="alignRight"}}
+				</ul>
+			</div>
+		</div>
+	</header>
+</template>

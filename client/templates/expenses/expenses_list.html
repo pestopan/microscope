@@ -1,0 +1,26 @@
+<template name="expensesList">
+	<h3>Expenses</h3>
+
+	<div class="expenses">
+		<table class="table table-striped">
+			<tr>
+				<th>date</th>
+				<th>title</th>
+				<th class="text-right">amount</th>
+				<th class="text-right">tax</th>
+			</tr>
+			{{#each expenses}}
+				<tr>{{> expenseItem}}</tr>
+			{{/each}}
+			<tr>
+				<th></th>
+				<th></th>
+				<th class="text-right">{{total}}</th>
+				<th class="text-right"></th>
+			</tr>
+
+
+		</table>
+	</div>
+
+</template>

@@ -1,0 +1,11 @@
+/* CSS declarations go here */
+.container {
+	min-width: 600px;
+	width: 50%;
+	margin: auto;
+}
+
+
+.fa-angellist {
+	font-size: 300px;
+}
